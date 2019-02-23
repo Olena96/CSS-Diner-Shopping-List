@@ -1,0 +1,117 @@
+* { 
+font-family:"Trebuchet MS", "Trebuchet",  Arial, sans-serif; 
+transition: all .1s ease-in;
+}
+
+html { 
+height: 100%;
+ }
+
+ body { 
+ min-height: 100%;
+  }
+header div { 
+background-color: #4a4f56;
+color: #eb7e73;
+text-align: center;
+padding: 20px;
+
+}
+
+h1,p { 
+margin: 0
+}
+
+
+main { 
+	background-color: #3b3d45; 
+	overflow: hidden;
+}
+
+.container { 
+margin: 0 auto; 
+max-width: 600px;
+ }
+
+label { 
+display: inline-block;
+width: 95%;
+box-sizing: border-box;
+line-height: 1,5;
+font-size: 20px;
+padding-left: 30px;
+
+}
+
+ul {
+list-style: none;
+color: #fff;
+padding: 0;
+
+}
+
+li{ 
+padding:12px;
+position: relative;
+
+}
+
+
+ul li:nth-child(odd) { 
+background-color: #88839e;
+}
+
+ul li:nth-child(even) { 
+background-color:#7a7593;
+}
+
+ul li:hover { 
+background-color: #5f6174;
+border-top: 2px solid white; 
+border-bottom: 2px solid white;
+}
+
+ul li:active {
+background-color: #EB7E7F;
+}
+
+
+input[type="checkbox"]:checked ~ label {
+color: #A49EB2;
+text-decoration: line-through;
+}
+
+
+input[type="checkbox"] {
+height: 20px;
+width: 20px;
+position: absolute;
+cursor: pointer;
+}
+
+
+
+
+.note { 
+font-size: 12px;
+color: #c0bbc8;
+}
+span.note::before { 
+content: "(" }
+
+span.note::after { 
+content: ")" }
+
+
+button { 
+	display: block;
+	width: 100%;
+	background-color: #4a4f56;
+	color: #eb7e73;
+	padding: 16px 0;
+	border: none;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+
